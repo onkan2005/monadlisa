@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/monadlisa/static/css/main.3e30a4ae.css",
-    "main.js": "/monadlisa/static/js/main.e9d11ff3.js",
+    "main.js": "/monadlisa/static/js/main.69dde978.js",
     "static/js/453.a637bce6.chunk.js": "/monadlisa/static/js/453.a637bce6.chunk.js",
     "static/media/monadlisa.png": "/monadlisa/static/media/monadlisa.ce14f63d36a0338c5b6f.png",
     "index.html": "/monadlisa/index.html",
     "main.3e30a4ae.css.map": "/monadlisa/static/css/main.3e30a4ae.css.map",
-    "main.e9d11ff3.js.map": "/monadlisa/static/js/main.e9d11ff3.js.map",
+    "main.69dde978.js.map": "/monadlisa/static/js/main.69dde978.js.map",
     "453.a637bce6.chunk.js.map": "/monadlisa/static/js/453.a637bce6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e30a4ae.css",
-    "static/js/main.e9d11ff3.js"
+    "static/js/main.69dde978.js"
   ]
 }

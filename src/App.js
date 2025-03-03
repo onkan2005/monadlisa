@@ -29,7 +29,7 @@ export default function App() {
       </div>
       
       <a 
-        href="https://your-buylink.com" 
+        href="https://magiceden.io/mint-terminal/monad-testnet/0x2f6f5c08871a2eb6400a8210841c1661d7d25e5a" 
         target="_blank" 
         rel="noopener noreferrer"
         className="mt-6 px-6 py-3 bg-pink-300 text-black font-bold rounded-lg hover:bg-yellow-600 transition"

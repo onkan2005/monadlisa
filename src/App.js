@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { ethers } from "ethers";
 import monadlisa from "./monadlisa.png"; 
+
 export default function App() {
   const [account, setAccount] = useState(null);
 
@@ -9,12 +9,12 @@ export default function App() {
   const connectWallet = async () => {
     if (window.ethereum) {
       try {
-
+        // Request account access
         const accounts = await window.ethereum.request({
           method: "eth_requestAccounts",
         });
 
-
+    
         if (accounts.length > 0) {
           setAccount(accounts[0]);
         }
@@ -28,10 +28,11 @@ export default function App() {
 
 
   const disconnectWallet = () => {
-
+   
     setAccount(null);
 
-
+    
+    window.location.reload();
   };
 
   return (

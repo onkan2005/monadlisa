@@ -9,7 +9,7 @@ graph TD
     end
 
     E -- Yes, requires update --> F[Modification/Maintenance\n- Update attributes\n- Role changes\n- Credential rotation];
-    F --> D; %% Loop back to access with updated credentials/roles
+    F --> D; 
 
     E -- No, termination needed --> G[De-provisioning/Termination\n- Revoke credentials\n- Disable accounts\n- Remove access];
 

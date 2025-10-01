@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A([Start: Identity Lifecycle]) --> B;
 
